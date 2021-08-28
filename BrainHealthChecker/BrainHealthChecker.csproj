@@ -14,11 +14,16 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="QuestionPage.xaml" />
+    <None Remove="ResultPage.xaml" />
     <None Remove="Scene2Page.xaml" />
     <None Remove="Scene3Page.xaml" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="ResultPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuestionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -14,8 +14,19 @@ namespace BrainHealthChecker
         private void demantiaButton_Clicked(object sender, ClickedEventArgs e)
         {
             Window window;
+            View view;
+
             window = NUIApplication.GetDefaultWindow();
-            window.Add(new QuestionPage());
+            if (Scene1.g_pre_view != null)
+            {
+                window.Remove(Scene1.g_pre_view);
+                Scene1.g_pre_view.Unparent();
+                Scene1.g_pre_view.Dispose();
+                Scene1.g_pre_view = null;
+            }
+            view = new QuestionPage();
+            Scene1.g_pre_view = view;
+            window.Add(view);
         }
     }
 }

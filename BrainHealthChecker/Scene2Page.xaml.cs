@@ -21,8 +21,10 @@ namespace BrainHealthChecker
         private void buttonNext_Clicked(object sender, ClickedEventArgs e)
         {
             Window window;
+            View view;
 
-        // 전화번호를 전역변수에 저장
+
+            // 전화번호를 전역변수에 저장
             QuestionPage.g_phoneNumber = int.Parse(phoneField.Text);
         // 성별을 전역변수에 저장
             if ( RadioMan.IsSelected )
@@ -39,7 +41,17 @@ namespace BrainHealthChecker
             QuestionPage.g_age = int.Parse( ageField.Text);
 
             window = NUIApplication.GetDefaultWindow();
-            window.Add(new Scene3Page());
+            if (Scene1.g_pre_view != null)
+            {
+                window.Remove(Scene1.g_pre_view);
+                Scene1.g_pre_view.Unparent();
+                Scene1.g_pre_view.Dispose();
+                Scene1.g_pre_view = null;
+            }
+            
+            view = new Scene3Page();
+            Scene1.g_pre_view = view;
+            window.Add(view);
         }
     }
 }

@@ -14,8 +14,18 @@ namespace BrainHealthChecker
         {
            
             Window window;
+            View view;
+       
+            if (Scene1.g_pre_view != null)
+            {
+                Scene1.g_pre_view.Unparent();
+                Scene1.g_pre_view.Dispose();
+                Scene1.g_pre_view = null;
+            }
             window = NUIApplication.GetDefaultWindow();
-            window.Add(new Scene2Page());
+            view = new Scene2Page();
+            Scene1.g_pre_view = view;
+            window.Add(view);
 
           //  myView.Unparent(); // remove from the tree
           //  myView.TouchEvent -= MyView_TouchEvent; // unscribe event handler

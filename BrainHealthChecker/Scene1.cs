@@ -12,19 +12,22 @@ namespace BrainHealthChecker
 {
     public class Scene1 : NUIApplication
     {
+        public static View g_pre_view = null;
         override protected void OnCreate()
         {
             base.OnCreate();
 
             // NOTE To use theme.xaml, uncomment below line.
             // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
-
-            //GetDefaultWindow().Add(new Scene1Page()); // 시작화면
+            View view = new Scene1Page();
+            g_pre_view = view;
+            GetDefaultWindow().Add(view); // 시작화면
             //GetDefaultWindow().Add(new Scene2Page()); // login창용
             //GetDefaultWindow().Add(new Scene3Page()); // 서비스선택창
-            GetDefaultWindow().Add(new QuestionPage()); // 질문창
+            // GetDefaultWindow().Add(new QuestionPage()); // 질문창
+            //GetDefaultWindow().Add(new ResultPage());
 
-            //GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
+            GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }
 
         private void OnScene1KeyEvent(object sender, Window.KeyEventArgs e)

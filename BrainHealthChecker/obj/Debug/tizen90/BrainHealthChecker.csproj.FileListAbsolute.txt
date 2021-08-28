@@ -1,6 +1,7 @@
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\BrainHealthChecker.deps.json
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\BrainHealthChecker.dll
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\BrainHealthChecker.pdb
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\ResultPage.xaml.g.cs
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\QuestionPage.xaml.g.cs
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\Scene3Page.xaml.g.cs
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\Scene2Page.xaml.g.cs

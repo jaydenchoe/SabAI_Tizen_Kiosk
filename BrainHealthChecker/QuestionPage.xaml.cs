@@ -25,7 +25,7 @@ namespace BrainHealthChecker
         };
         // 치매 질문에 대한 답 배열과 합산값
         private int[] m_answerList = new int[14];
-        private int m_totalScore = 0;
+        public static int g_totalScore = 0;
         // 현재 질문 인덱스 (0~13)
         private int m_questionIndex = 0;
         // 전화번호, 성별, 나이를 저장하는 전역 변수들
@@ -38,6 +38,7 @@ namespace BrainHealthChecker
         {
             InitializeComponent();
             m_questionIndex = 0; // 최초 질문 인덱스로 바꾸고
+            g_totalScore = 0;
             questionLabel.Text = m_dementiaQuestions[m_questionIndex]; // 질문을 Text Label에 입력
         }
 
@@ -45,18 +46,31 @@ namespace BrainHealthChecker
         {
             if (13 <= m_questionIndex)
             { // 끝까지 갔으면 결과 페이지로 이동
-                // 
+                Window window;
+                View view;
+                window = NUIApplication.GetDefaultWindow();
+                if (Scene1.g_pre_view != null)
+                {
+                    window.Remove(Scene1.g_pre_view);
+                    Scene1.g_pre_view.Unparent();
+                    Scene1.g_pre_view.Dispose();
+                    Scene1.g_pre_view = null;
+                }
+
+                view = new ResultPage();
+                Scene1.g_pre_view = view;
+                window.Add(view);
             }
             else
             { // 그렇지 않으면 현재 질문 답을 저장하고 다음 질문 업데이트
                 if (RadioYes.IsSelected)
                 {
-                    m_answerList[m_questionIndex] = 0; // yes
+                    m_answerList[m_questionIndex] = 1; // yes
+                    QuestionPage.g_totalScore += 1;
                 }
                 else
                 {
-                    m_answerList[m_questionIndex] = 1; // no
-                    m_totalScore += 1;
+                    m_answerList[m_questionIndex] = 0; // no
                 }
                 m_questionIndex++; // 다음 질문 인덱스로 이동
                 questionLabel.Text = m_dementiaQuestions[m_questionIndex]; // 질문을 Text Label에 입력
@@ -70,14 +84,14 @@ namespace BrainHealthChecker
         }
         private void StoreScore()
         {
-        // 클라우드 저장용
+            // 클라우드 저장용
 
             // m_answerList의 값 저장
-            // m_totalScore의 값을 저장
+            // public static int g_totalScore의 값을 저장
             // public static int g_phoneNumber (전화번호) 값 저장
             // public static int g_gender (성별) 값 저장 // 0은 남성, 1은 여성, 2는 기타
             // public static int g_age (나이) 값
 
-    }
+        }
     }
 }
