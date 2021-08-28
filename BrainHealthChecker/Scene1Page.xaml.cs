@@ -1,5 +1,6 @@
 ﻿using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
+using Tizen.NUI.Components;
 
 namespace BrainHealthChecker
 {
@@ -8,6 +9,10 @@ namespace BrainHealthChecker
         public Scene1Page()
         {
             InitializeComponent();
+        }
+        private void Button_Load(object sender, ClickedEventArgs e)
+        {
+
         }
     }
 }

@@ -18,11 +18,27 @@ namespace BrainHealthChecker {
     public partial class Scene1Page : global::Tizen.NUI.BaseComponents.View {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.View centerView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.View Underline1;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.View Underline2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.ImageView imgView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         private object eXamlData;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         private void InitializeComponent() {
             eXamlData = global::Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlByRelativePath(this, GetEXamlPath());
+            centerView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "centerView");
+            Underline1 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "Underline1");
+            Underline2 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "Underline2");
+            imgView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.ImageView>(this, "imgView");
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]

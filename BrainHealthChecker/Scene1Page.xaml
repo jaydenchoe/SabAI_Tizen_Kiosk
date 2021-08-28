@@ -9,7 +9,26 @@
     <View.Layout>
         <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
     </View.Layout>
-    <ImageView ResourceUrl="*Resource*/images/tizen.png"/>
-    <TextLabel Text="Hello Tizen NUI"
-               PixelSize="36"/>
+    <View x:Name="centerView" WidthSpecification="550" HeightSpecification="550" BackgroundColor="White" CornerRadius="50">
+        <View.Layout>
+            <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center" CellPadding="20,20"></LinearLayout>
+        </View.Layout>
+        <View x:Name="Underline1" BackgroundColor="#FFC933" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="8" />
+        <TextLabel Text="정신건강도우미"
+               PixelSize="70" TextColor="#FFC933"/>
+        <TextLabel Text="언택트 시대 사회적 약자를 위한"
+               PixelSize="40" TextColor="Black"/>
+        <TextLabel Text="뇌질환 자가진단 솔루션"
+               PixelSize="40" TextColor="Black"/>
+        <View x:Name="Underline2" BackgroundColor="Black" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="2" />
+        <ImageView x:Name="imgView"
+           ResourceUrl="*Resource*/images/sabai_logo.jpg"
+           Size2D="150, 100"
+           FittingMode="ShrinkToFit"  
+           BackgroundColor="White"/>
+        <View HeightSpecification="30" />
+        <Button Text="눌러서 시작하세요"
+            Clicked="Button_Load" BackgroundColor="Blue" />
+    </View>
+ 
 </View>

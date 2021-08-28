@@ -2,6 +2,7 @@ C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\bin\BrainHealthChecker.pdb
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\BrainHealthChecker.deps.json
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\sabai_logo.jpg
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\tizen.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\shared\res\BrainHealthChecker.png
