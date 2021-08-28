@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="BrainHealthChecker.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:BrainHealthChecker"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="White">
+    <View.Layout>
+        <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
+    </View.Layout>
+    <ImageView ResourceUrl="*Resource*/images/tizen.png"/>
+    <TextLabel Text="Hello Tizen NUI"
+               PixelSize="36"/>
+</View>

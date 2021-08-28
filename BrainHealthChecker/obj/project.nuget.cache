@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lSOuHBIy44QW4RsreoPZOCP/dSwQdABKU1gMfbS0JxTOW6g4CO+ix5vrGYr1YdZyRxZbteRUg4PUAdv4g6EbaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jayden\\OneDrive\\문서\\GitHub\\SabAI_Kiosk\\BrainHealthChecker\\BrainHealthChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jayden\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\jayden\\.nuget\\packages\\tizen.net\\9.0.0.16500\\tizen.net.9.0.0.16500.nupkg.sha512",
+    "C:\\Users\\jayden\\.nuget\\packages\\tizen.net.api9\\9.0.0.16500\\tizen.net.api9.9.0.0.16500.nupkg.sha512",
+    "C:\\Users\\jayden\\.nuget\\packages\\tizen.net.internals\\9.0.0.16500\\tizen.net.internals.9.0.0.16500.nupkg.sha512",
+    "C:\\Users\\jayden\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.28\\tizen.nui.xamlbuild.1.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
