@@ -11,6 +11,20 @@
         <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
     </View.Layout>
 
+    <View x:Name="TextScoreView" WidthSpecification="1000" HeightSpecification="30" BackgroundColor="White">
+        <View.Layout>
+            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="310,0"></LinearLayout>
+        </View.Layout>
+        <TextLabel x:Name="TextScoreLabel1" Text=" 0" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        </TextLabel>
+        <TextLabel x:Name="TextScoreLabel2" Text="  5" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        </TextLabel>
+        <TextLabel x:Name="TextScoreLabel3" Text=" 10" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        </TextLabel>
+        <TextLabel x:Name="TextScoreLabel4" Text="14" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        </TextLabel>
+    </View>
+    <View x:Name="DummyView4" WidthSpecification="1000" HeightSpecification="5" BackgroundColor="White"></View>
     <View x:Name="AniView" WidthSpecification="1000" HeightSpecification="20" BackgroundColor="Yellow">
         <View x:Name="AnimateView" WidthSpecification="20" HeightSpecification="20" BackgroundColor="Blue">
 

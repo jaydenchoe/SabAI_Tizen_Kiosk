@@ -25,7 +25,7 @@ namespace BrainHealthChecker
 
 
             // 전화번호를 전역변수에 저장
-            QuestionPage.g_phoneNumber = int.Parse(phoneField.Text);
+            QuestionPage.g_phoneNumber = phoneField.Text;
         // 성별을 전역변수에 저장
             if ( RadioMan.IsSelected )
             {
@@ -38,7 +38,7 @@ namespace BrainHealthChecker
                 QuestionPage.g_gender = 2;
             }
         // 나이를 전역변수에 저장
-            QuestionPage.g_age = int.Parse( ageField.Text);
+            QuestionPage.g_age = ageField.Text;
 
             window = NUIApplication.GetDefaultWindow();
             if (Scene1.g_pre_view != null)

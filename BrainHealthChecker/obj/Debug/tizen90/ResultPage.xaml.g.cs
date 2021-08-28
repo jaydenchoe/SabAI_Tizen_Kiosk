@@ -18,6 +18,24 @@ namespace BrainHealthChecker {
     public partial class ResultPage : global::Tizen.NUI.BaseComponents.View {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.View TextScoreView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.TextLabel TextScoreLabel1;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.TextLabel TextScoreLabel2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.TextLabel TextScoreLabel3;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.TextLabel TextScoreLabel4;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.BaseComponents.View DummyView4;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         public global::Tizen.NUI.BaseComponents.View AniView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
@@ -68,6 +86,12 @@ namespace BrainHealthChecker {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         private void InitializeComponent() {
             eXamlData = global::Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlByRelativePath(this, GetEXamlPath());
+            TextScoreView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "TextScoreView");
+            TextScoreLabel1 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextLabel>(this, "TextScoreLabel1");
+            TextScoreLabel2 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextLabel>(this, "TextScoreLabel2");
+            TextScoreLabel3 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextLabel>(this, "TextScoreLabel3");
+            TextScoreLabel4 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextLabel>(this, "TextScoreLabel4");
+            DummyView4 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "DummyView4");
             AniView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "AniView");
             AnimateView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "AnimateView");
             RVirtView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "RVirtView");

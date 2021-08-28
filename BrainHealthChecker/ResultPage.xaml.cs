@@ -13,8 +13,9 @@ namespace BrainHealthChecker
             InitializeComponent();
             NextStepButton.Text = "다음 할일";
             ExplanationLabel1.Text = "점수 계산중입니다";
-            //startAni();
+            
             update();
+            startAni();
         }
 
         public void update()
@@ -39,22 +40,21 @@ namespace BrainHealthChecker
                 ExplanationLabel2.Text = "치매예방수칙을 잘 실천하셔서 치매를 예방하세요";
                 NextStepButton.Text = "치매예방수칙 바로가기";
             }
-
         }
 
         public void startAni()
         {
             Animation animation;
             float position = 0.0f;
-            animation = new Animation(1200);
+            animation = new Animation(1000);
             position = 980.0f / 14.0f * QuestionPage.g_totalScore;
-            animation.AnimateTo(AnimateView, "PositionX", 980);
+            animation.AnimateTo(AnimateView, "PositionX", position);
 
-            animation.ProgressNotification = 1f;
-            animation.ProgressReached += (o, e) =>
-            {
-                update();
-            };
+            animation.ProgressNotification = 1.0f;
+           // animation.ProgressReached += (o, e) =>
+           // {
+           //     update();
+           // };
             animation.Play();
         }
 
