@@ -19,8 +19,9 @@ namespace BrainHealthChecker
             // NOTE To use theme.xaml, uncomment below line.
             // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
 
-            //GetDefaultWindow().Add(new Scene1Page()); // 잠시 disable
-            GetDefaultWindow().Add(new Scene2Page()); // login창용
+            //GetDefaultWindow().Add(new Scene1Page()); // 시작화면
+            //GetDefaultWindow().Add(new Scene2Page()); // login창용
+            GetDefaultWindow().Add(new Scene3Page()); // login창용
             GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }
 

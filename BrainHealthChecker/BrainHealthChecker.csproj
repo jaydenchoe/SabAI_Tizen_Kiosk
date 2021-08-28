@@ -14,9 +14,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Scene2Page.xaml" />
+    <None Remove="Scene3Page.xaml" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Scene3Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="Scene2Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

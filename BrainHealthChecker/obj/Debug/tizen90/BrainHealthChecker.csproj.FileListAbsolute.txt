@@ -10,3 +10,4 @@ C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\BrainHealthChecker.pdb
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\BrainHealthChecker.csproj.AssemblyReference.cache
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\Scene2Page.xaml.g.cs
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\obj\Debug\tizen90\Scene3Page.xaml.g.cs

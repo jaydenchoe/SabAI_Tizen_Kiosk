@@ -5,3 +5,6 @@
 *.cache
 *.pdb
 *.pdb
+BrainHealthChecker/obj/Debug/tizen90/Scene3Page.xaml.g.cs
+BrainHealthChecker/obj/Debug/tizen90/BrainHealthChecker.pdb
+BrainHealthChecker/bin/Debug/tizen90/tpkroot/bin/BrainHealthChecker.pdb
