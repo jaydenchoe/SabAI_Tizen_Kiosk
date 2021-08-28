@@ -26,7 +26,7 @@
                 </PropertyMap>
             </TextLabel.FontStyle>
         </TextLabel>
-        <Button x:Name="demantiaButton" Text="눌러서 다음 화면으로" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
+        <Button x:Name="demantiaButton" Clicked="demantiaButton_Clicked" Text="눌러서 다음 화면으로" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
     </View>
 
     <View HeightSpecification="20" />

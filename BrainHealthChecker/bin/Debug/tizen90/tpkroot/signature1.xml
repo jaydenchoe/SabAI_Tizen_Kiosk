@@ -26,6 +26,10 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>H9BHOhAsGNkZ6OaTCot/sDyTqkukd2oYhlB2Z8nsiXE+6BrAe4ISflnuAh9BF0elIEHBg98E6KBaRc3aAJF2kw==</DigestValue>
     </Reference>
+    <Reference URI="res%2Fimages%2Fheart_health.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>F9MA4NbNOEabn2asMlldGHWV4OcgxrSihAR1TW/5mckZCuCOeURFDtQbUhxOlHKn3ds4BN0hLimGir6NRjfM0w==</DigestValue>
+    </Reference>
     <Reference URI="res%2Fimages%2Fdepressed.png">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>ynQq/VYw4W1uAjaSW7sBWxjaHYe818TaoBKhGCTHxKUr5p/E74U3Qj9S7PA/5Sp8VpaIt3dgKIuEibiAH1F6VA==</DigestValue>
@@ -44,15 +48,15 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>cstyuSPVNPGLoIVxI035mCT5Vc9nPV6BTAtE9pZmB1dAXWxmA8am9TJjE4XiC8rNtZ1v4ZibKZ0xYQAg/y+odA==</DigestValue>
+      <DigestValue>B81MwdLe/CcE2ftDmul+QPhhgz487/0lelzu7p7Sj3tIfbG/YkkR5BV1sGZUu7nF9WVrhsKsLgpCJSQAQZcO7g==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>UUuhbg9811wYpZ2zeAu7TD52EP5RR9HQB40PQtlOQw92Yj8s64eBFDOioshV+flWrzYt8P/0yk35AOb+aK3fvg==</DigestValue>
+      <DigestValue>puouRwbPsUWJa34hpzczbajTE2sCLmAgUaEZXyxW9oR/aNuTfwEdEulDtFLkPNfSrTdBk7KZWOK+tOyr1Ic0ww==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>xnumM7vTgx/FGui5+zr7j+sp5gFNaEtV4NvHnqVjvW90TqhVpt8RfczGB1a14dd/9TK/qF9BlByvNQesa0chxw==</DigestValue>
+      <DigestValue>3Fan9IFp1aKfJDApRaFcvrDHyXAK6WhKWnysp4L+80YT796wuG1nEsoibaBOfpca3gfjE8YxMWs9gqYRXVNc1Q==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -63,9 +67,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-gzuevNXHjXUJbgGhSjpfyf+kj+BuGnf9AvU7uSTVBk+4f2uYlgLUgakFXOJ+HWZZdhyqoOmWbVkE
-mCyqfylrmXueQetKWMUx03ccro9/gid8JtZJ+PGKSUgK10PiYcjnRyqZ3o81NTzQO4AGg35jrFZG
-cbB0pa2pDr27hYlkfFs=
+dXjEfMlKglXJC8AjrMvBzPjLu8XigUvf31KSvSB+9gFewN/sKAqKEd4VXrNhmw9MlvNtnm0wCZQJ
+v3w4CjU+XVQcTk4yrhwCRTJDDHW9buU02cWUQRNFBQPqjvBxp2y76+H0vZbBIVAW2LqRTYs+nYD/
+RHz5IMHLwlrOKqxamRw=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

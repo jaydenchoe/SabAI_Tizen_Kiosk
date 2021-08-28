@@ -32,9 +32,9 @@
             <View.Layout>
                 <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="20,0"/>
             </View.Layout>
-            <c:RadioButton x:Name="Radio1" Text="남성" IsSelected="True"/>
-            <c:RadioButton x:Name="Radio2" Text="여성" />
-            <c:RadioButton x:Name="Radio3" Text="기타" />
+            <c:RadioButton x:Name="RadioMan" Text="남성" IsSelected="True"/>
+            <c:RadioButton x:Name="RadioWoman" Text="여성" />
+            <c:RadioButton x:Name="RadioEtc" Text="기타" />
         </View>
 
         <View HeightSpecification="30" />

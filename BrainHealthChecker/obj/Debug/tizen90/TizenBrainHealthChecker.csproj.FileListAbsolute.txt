@@ -4,6 +4,7 @@ C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\BrainHealthChecker.deps.json
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\dementia.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\depressed.png
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\heart_health.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\sabai_logo.jpg
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\stress.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\tizen.png

@@ -26,6 +26,10 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>H9BHOhAsGNkZ6OaTCot/sDyTqkukd2oYhlB2Z8nsiXE+6BrAe4ISflnuAh9BF0elIEHBg98E6KBaRc3aAJF2kw==</DigestValue>
     </Reference>
+    <Reference URI="res%2Fimages%2Fheart_health.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>F9MA4NbNOEabn2asMlldGHWV4OcgxrSihAR1TW/5mckZCuCOeURFDtQbUhxOlHKn3ds4BN0hLimGir6NRjfM0w==</DigestValue>
+    </Reference>
     <Reference URI="res%2Fimages%2Fdepressed.png">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>ynQq/VYw4W1uAjaSW7sBWxjaHYe818TaoBKhGCTHxKUr5p/E74U3Qj9S7PA/5Sp8VpaIt3dgKIuEibiAH1F6VA==</DigestValue>
@@ -44,11 +48,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>cstyuSPVNPGLoIVxI035mCT5Vc9nPV6BTAtE9pZmB1dAXWxmA8am9TJjE4XiC8rNtZ1v4ZibKZ0xYQAg/y+odA==</DigestValue>
+      <DigestValue>B81MwdLe/CcE2ftDmul+QPhhgz487/0lelzu7p7Sj3tIfbG/YkkR5BV1sGZUu7nF9WVrhsKsLgpCJSQAQZcO7g==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>UUuhbg9811wYpZ2zeAu7TD52EP5RR9HQB40PQtlOQw92Yj8s64eBFDOioshV+flWrzYt8P/0yk35AOb+aK3fvg==</DigestValue>
+      <DigestValue>puouRwbPsUWJa34hpzczbajTE2sCLmAgUaEZXyxW9oR/aNuTfwEdEulDtFLkPNfSrTdBk7KZWOK+tOyr1Ic0ww==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -59,9 +63,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-EfqEOO2l6oGdKVIPEyaqVUWauLH3mJJ9nA+oQ4EeFQfRcjGfdGgyfqHhzCCPYONoVu+KeeGwmRf8
-o4A3Psice2vGL0fMhBqVJM2BiMqmKd7Cnj+3GL/SE72z73uwUhxyUnA+uFUjswlVtMTInVEFu61v
-5MDWzDCKLkVtEazsn5k=
+dq6cvDXsIQEGwoAnaDZBr958pF7M/esMCrr6FWaI1VYxzAOK+pp9qAfmS0z+sh2mfr5Cw3cWvAxv
+pb8QQlrG6iMPJRRIvsT3rBEBNw4OUk13sSP7BpEKH3etT5tyFkzDsTE3P4uT4GXMUAd365XG8c0g
++ZcMeadPeutsXpXDlMA=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

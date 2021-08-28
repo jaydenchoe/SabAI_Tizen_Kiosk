@@ -10,6 +10,12 @@ namespace BrainHealthChecker
         {
             InitializeComponent();
         }
-    
+
+        private void demantiaButton_Clicked(object sender, ClickedEventArgs e)
+        {
+            Window window;
+            window = NUIApplication.GetDefaultWindow();
+            window.Add(new QuestionPage());
+        }
     }
 }
