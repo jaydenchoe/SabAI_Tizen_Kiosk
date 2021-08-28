@@ -10,7 +10,7 @@ namespace BrainHealthChecker
         {
             InitializeComponent();
         }
-        private void Button_Load(object sender, ClickedEventArgs e)
+        private void Button_Start(object sender, ClickedEventArgs e)
         {
 
         }

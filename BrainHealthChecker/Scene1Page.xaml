@@ -28,7 +28,7 @@
            BackgroundColor="White"/>
         <View HeightSpecification="30" />
         <Button Text="눌러서 시작하세요"
-            Clicked="Button_Load" BackgroundColor="Blue" />
+            Clicked="Button_Start" />
     </View>
  
 </View>
