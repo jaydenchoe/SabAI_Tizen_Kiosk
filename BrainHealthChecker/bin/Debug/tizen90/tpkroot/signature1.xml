@@ -52,15 +52,15 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>9Lvowfuq1hp+c1k4QFJsf27lpO0+hn7ChkMW/HKcXR87+2Ama2ytKiax1JSgfeczP4JgHT1vnwU85uINvpB8dw==</DigestValue>
+      <DigestValue>UgKbmwH1Wtb1FIBaJJbG9OQfF4BNW8evMjfTNIClI6fXW+2WvuqwPlCM/LU0ssPUtsqFjRnvxw0Y+P9r01i8nA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>TfmT25Ew2aTJOrzFI1FMTvxfbkHszoznoTsHUcHFui7TH2nCgeNSsJz114aiekbwvEUWlPX3+EzJi9IQn0g7Dw==</DigestValue>
+      <DigestValue>IgyPuUiDY4LXbYbKvGrZ0tkb3XXHEIGLvY99FBxmFn/8gMP5eB9nwq/QG81EHC46bNe9FozPtfXX52dGyeTQWw==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>7fsW299uO2YUxL58zJhL6QrjP8JzhiKjBAn4UnoIplaUGmdj9eGcknzrlOm/ns/7ROqJfpS+N6fYHqijpGsIHw==</DigestValue>
+      <DigestValue>oV9Rvxew4/ZyCp825IC2wouOGLIjOqBcYDYX+KLfyRcDqpoRPO+SD+P9hHXhxDqrjHXJdpmQDT2DK/jYr/z74g==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -71,9 +71,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-UqL1bxROl0T5pEfd3RH8fjYE6hpsh0XJ7UMb4c8qYq/FwHVUQUxDgfbJf6qT2W+433yoDn3Em2TL
-qrgUF+YbSvre452FnS5bZpXOVD3MKOs/ThS8eovtlHidDufdedpYW3rxoORIa9H2bYTZDmKNjwlE
-UAOt2clcHY4nUvQlrGw=
+cfV3PY6Cz30etlmz6bo1IKt95ZwFuvMdySlehKH6JdgytJ3hch7+b6USFSTsKyyg4FlVX17cXZ/6
++0DYmswW3slUo5hjeCExpcPgXeX+/78Sqe/9hS7Jngo+D+dWA6ZP0+kUM16tzuEsY14Pp+Bi7y5L
+mXYnlWBud5mjtS8gxh4=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

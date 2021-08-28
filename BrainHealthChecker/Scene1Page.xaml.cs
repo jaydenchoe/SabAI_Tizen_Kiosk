@@ -15,14 +15,16 @@ namespace BrainHealthChecker
            
             Window window;
             View view;
-       
+            window = NUIApplication.GetDefaultWindow();
+
             if (Scene1.g_pre_view != null)
             {
+                window.Remove(Scene1.g_pre_view);
                 Scene1.g_pre_view.Unparent();
                 Scene1.g_pre_view.Dispose();
                 Scene1.g_pre_view = null;
             }
-            window = NUIApplication.GetDefaultWindow();
+      
             view = new Scene2Page();
             Scene1.g_pre_view = view;
             window.Add(view);
