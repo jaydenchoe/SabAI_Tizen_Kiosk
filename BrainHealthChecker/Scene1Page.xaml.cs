@@ -12,6 +12,15 @@ namespace BrainHealthChecker
         }
         private void Button_Start(object sender, ClickedEventArgs e)
         {
+           
+            Window window;
+            window = NUIApplication.GetDefaultWindow();
+            window.Add(new Scene2Page());
+
+          //  myView.Unparent(); // remove from the tree
+          //  myView.TouchEvent -= MyView_TouchEvent; // unscribe event handler
+          //  myView.Dispose(); // call Dispose()
+          //  myView = null; // make be unreachable for GC
 
         }
     }

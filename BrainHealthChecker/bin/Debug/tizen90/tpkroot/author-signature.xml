@@ -44,11 +44,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>M5axpIhVkh37gGoajJoYuNyfj53nc2sPeMc5KcxBvZ9+52tmQ+BwTyRvCwqKR1qeolqPGBSn0Q2rrv3Dtnjekw==</DigestValue>
+      <DigestValue>cstyuSPVNPGLoIVxI035mCT5Vc9nPV6BTAtE9pZmB1dAXWxmA8am9TJjE4XiC8rNtZ1v4ZibKZ0xYQAg/y+odA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>C+nwarjc6D5Irnb7I4yqpMe8B67akYkgpoiuc9Xoub/d6MbH5R0wieeZIRRz3imTn05fguwo6wDUN1dFDkZEGg==</DigestValue>
+      <DigestValue>UUuhbg9811wYpZ2zeAu7TD52EP5RR9HQB40PQtlOQw92Yj8s64eBFDOioshV+flWrzYt8P/0yk35AOb+aK3fvg==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -59,9 +59,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-FcJ2tWdqRv3fcRgjotUGMkxtpgNCeMUW0Y6bEtsJWFSdmNYJVpupUnNPrUToW2pxlUWQemnur7Js
-9Ci4jU7aLC0IXeGhssRlRbOvV9nbrh5v+irooPLaq9pYVtHXhAJlRJtWdu30ulpXmEoD1LOaxoSk
-agR9GSLaNabeanqsotw=
+EfqEOO2l6oGdKVIPEyaqVUWauLH3mJJ9nA+oQ4EeFQfRcjGfdGgyfqHhzCCPYONoVu+KeeGwmRf8
+o4A3Psice2vGL0fMhBqVJM2BiMqmKd7Cnj+3GL/SE72z73uwUhxyUnA+uFUjswlVtMTInVEFu61v
+5MDWzDCKLkVtEazsn5k=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

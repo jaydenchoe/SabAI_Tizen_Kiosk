@@ -30,10 +30,13 @@ namespace BrainHealthChecker {
         public global::Tizen.NUI.BaseComponents.View phoneUnderline;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
-        public global::Tizen.NUI.BaseComponents.TextField genderField;
+        public global::Tizen.NUI.Components.RadioButton Radio1;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
-        public global::Tizen.NUI.BaseComponents.View genderUnderline;
+        public global::Tizen.NUI.Components.RadioButton Radio2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
+        public global::Tizen.NUI.Components.RadioButton Radio3;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         public global::Tizen.NUI.BaseComponents.TextField ageField;
@@ -42,7 +45,7 @@ namespace BrainHealthChecker {
         public global::Tizen.NUI.BaseComponents.View ageUnderline;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
-        public global::Tizen.NUI.Components.Button button;
+        public global::Tizen.NUI.Components.Button buttonNext;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]
         private object eXamlData;
@@ -54,11 +57,12 @@ namespace BrainHealthChecker {
             titleLabel = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextLabel>(this, "titleLabel");
             phoneField = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextField>(this, "phoneField");
             phoneUnderline = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "phoneUnderline");
-            genderField = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextField>(this, "genderField");
-            genderUnderline = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "genderUnderline");
+            Radio1 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.RadioButton>(this, "Radio1");
+            Radio2 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.RadioButton>(this, "Radio2");
+            Radio3 = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.RadioButton>(this, "Radio3");
             ageField = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.TextField>(this, "ageField");
             ageUnderline = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "ageUnderline");
-            button = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.Button>(this, "button");
+            buttonNext = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.Button>(this, "buttonNext");
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.28.0")]

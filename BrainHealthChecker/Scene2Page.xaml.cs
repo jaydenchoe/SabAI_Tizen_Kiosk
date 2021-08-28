@@ -10,11 +10,18 @@ namespace BrainHealthChecker
         {
             InitializeComponent();
 
-            SetButtonStyle(button);
+            SetButtonStyle(buttonNext);
         }
         private void SetButtonStyle(Button button)
         {
             button.TextLabel.PixelSize = 25.0f;
+        }
+
+        private void buttonNext_Clicked(object sender, ClickedEventArgs e)
+        {
+            Window window;
+            window = NUIApplication.GetDefaultWindow();
+            window.Add(new Scene3Page());
         }
     }
 }
