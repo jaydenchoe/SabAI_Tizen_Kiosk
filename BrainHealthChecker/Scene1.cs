@@ -21,7 +21,7 @@ namespace BrainHealthChecker
 
             //GetDefaultWindow().Add(new Scene1Page()); // 시작화면
             //GetDefaultWindow().Add(new Scene2Page()); // login창용
-            GetDefaultWindow().Add(new Scene3Page()); // login창용
+            GetDefaultWindow().Add(new Scene3Page()); // 서비스선택창
             GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }
 

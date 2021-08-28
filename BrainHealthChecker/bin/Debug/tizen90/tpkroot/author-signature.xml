@@ -18,9 +18,21 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>BTGBG483ma/3HgWnreWF2xbdzr4F0gTRWjwxoSV+7kKBWt4UJTuv5WE4DhKdU4in2kwn/55O/qPDbNc/wgCuGg==</DigestValue>
     </Reference>
+    <Reference URI="res%2Fimages%2Fstress.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>YyhIMxpvz16XRUloQxDueUXNSZXEgMHkUEPA2WLqpL+OCPKCLkCofYM/MJwrx/DGExnUVqVgB5HSC+uXAINgGA==</DigestValue>
+    </Reference>
     <Reference URI="res%2Fimages%2Fsabai_logo.jpg">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>H9BHOhAsGNkZ6OaTCot/sDyTqkukd2oYhlB2Z8nsiXE+6BrAe4ISflnuAh9BF0elIEHBg98E6KBaRc3aAJF2kw==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fdepressed.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>ynQq/VYw4W1uAjaSW7sBWxjaHYe818TaoBKhGCTHxKUr5p/E74U3Qj9S7PA/5Sp8VpaIt3dgKIuEibiAH1F6VA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fdementia.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>p3hiXMlFnz41ZGb4aK0BaQqiEtwc0ub26GBsb5WeLWSU9tWcsrozGw8aj/xJFNBpKRPeNxnUM0x2yOJhiKo3KA==</DigestValue>
     </Reference>
     <Reference URI="BrainHealthChecker.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -32,11 +44,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>7rD3M70z5EXGvR6tpjwyE7Q2v5gpH1u40vzm0pdQ646CP4Tp/w7T++0FhVvqkORf3ZeKk3iFLyozCLjHt3Vjeg==</DigestValue>
+      <DigestValue>M5axpIhVkh37gGoajJoYuNyfj53nc2sPeMc5KcxBvZ9+52tmQ+BwTyRvCwqKR1qeolqPGBSn0Q2rrv3Dtnjekw==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>cCxTUlVMRj+4VaL4OzSA12KlTeyZmbEywrVOaUjNeTLzdBnsB4+yePOT/jN7YFJcKSAvCSG9LMfg8XpUrXaLnA==</DigestValue>
+      <DigestValue>C+nwarjc6D5Irnb7I4yqpMe8B67akYkgpoiuc9Xoub/d6MbH5R0wieeZIRRz3imTn05fguwo6wDUN1dFDkZEGg==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -47,9 +59,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-GSvqbZXTDxYy/OWE6xxQnrFaIgOv8lQhkDEx7RV0l6l8kgYAQetxwZYlM5unXJF/2Vj+6WcpPhaY
-1bUy38IxACZH67Z7My4xemABnwuKLmRdipqkzCWRge1z40hiT976Pislftyq1uK89tj5SzHD9h6I
-NrRLM+X7xG0KHXiwqXk=
+FcJ2tWdqRv3fcRgjotUGMkxtpgNCeMUW0Y6bEtsJWFSdmNYJVpupUnNPrUToW2pxlUWQemnur7Js
+9Ci4jU7aLC0IXeGhssRlRbOvV9nbrh5v+irooPLaq9pYVtHXhAJlRJtWdu30ulpXmEoD1LOaxoSk
+agR9GSLaNabeanqsotw=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

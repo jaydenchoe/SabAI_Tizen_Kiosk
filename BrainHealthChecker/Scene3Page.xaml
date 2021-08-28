@@ -12,24 +12,64 @@
 
     <View x:Name="HoriView1" WidthSpecification="1000" HeightSpecification="200" BackgroundColor="#6DD7AB" CornerRadius="50">
         <View.Layout>
-            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center"></LinearLayout>
+            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="25,0"></LinearLayout>
         </View.Layout>
+        <ImageView x:Name="imgView1"
+               ResourceUrl="*Resource*/images/dementia.png"
+               Size2D="150, 150"
+               FittingMode="ShrinkToFit"  
+               BackgroundColor="#6DD7AB"/>
+        <TextLabel x:Name="dementiaLabel" Text="치매 진단" WidthSpecification="350" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="White" PixelSize="60" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
+        </TextLabel>
+        <Button x:Name="demantiaButton" Text="눌러서 다음 화면으로" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
     </View>
 
     <View HeightSpecification="20" />
 
     <View x:Name="HoriView2" WidthSpecification="1000" HeightSpecification="200" BackgroundColor="#9BD76D" CornerRadius="50">
         <View.Layout>
-            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center"></LinearLayout>
+            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="25,0"></LinearLayout>
         </View.Layout>
+        <ImageView x:Name="imgView2"
+               ResourceUrl="*Resource*/images/depressed.png"
+               Size2D="150, 150"
+               FittingMode="ShrinkToFit"  
+               BackgroundColor="#9BD76D"/>
+        <TextLabel x:Name="depressedLabel" Text="우울증 진단" WidthSpecification="350" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="White" PixelSize="60" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
+        </TextLabel>
+        <Button x:Name="depressedButton" Text="눌러서 다음 화면으로" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
+
     </View>
 
     <View HeightSpecification="20" />
 
     <View x:Name="HoriView3" WidthSpecification="1000" HeightSpecification="200" BackgroundColor="#2A82CB" CornerRadius="50">
         <View.Layout>
-            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center"></LinearLayout>
+            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="25,0"></LinearLayout>
         </View.Layout>
+        <ImageView x:Name="imgView3"
+               ResourceUrl="*Resource*/images/stress.png"
+               Size2D="150, 150"
+               FittingMode="ShrinkToFit"  
+               BackgroundColor="#2A82CB"/>
+        <TextLabel x:Name="stressLabel" Text="스트레스 진단" WidthSpecification="350" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="White" PixelSize="60" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
+        </TextLabel>
+        <Button x:Name="stressButton" Text="눌러서 다음 화면으로" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
 
     </View>
 
