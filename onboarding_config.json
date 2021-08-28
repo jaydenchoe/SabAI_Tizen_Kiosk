@@ -1,0 +1,19 @@
+{
+  "onboardingConfig": {
+    "deviceOnboardingId": "SabAI",
+    "mnId": "fdjm",
+    "setupId": "001",
+    "vid": "ST_af0d2c0b-0193-474c-a9e4-4b79f36aea55",
+    "deviceTypeId": "Light",
+    "ownershipValidationTypes": [
+      "JUSTWORKS"
+    ],
+    "identityType": "ED25519",
+    "deviceIntegrationProfileKey": {
+      "id": "419ed606-7ab9-4e3e-91bc-c1c0a28baf12",
+      "majorVersion": 0,
+      "minorVersion": 1
+    },
+    "productId": "b4995067-7348-4e48-909b-172bb0e4286a"
+  }
+}
