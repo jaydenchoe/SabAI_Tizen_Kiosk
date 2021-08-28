@@ -28,6 +28,11 @@ namespace BrainHealthChecker
         private int m_totalScore = 0;
         // 현재 질문 인덱스 (0~13)
         private int m_questionIndex = 0;
+        // 전화번호, 성별, 나이를 저장하는 전역 변수들
+        public static int g_phoneNumber = 0;
+        public static int g_gender = 0; // 0은 남성, 1은 여성, 2는 기타
+        public static int g_age = 0;
+
 
         public QuestionPage()
         {
@@ -65,8 +70,14 @@ namespace BrainHealthChecker
         }
         private void StoreScore()
         {
-            // m_answerList의 값 and / or m_totalScore의 값을 cloud에 저장하면 될듯 합니다.
+        // 클라우드 저장용
 
-        }
+            // m_answerList의 값 저장
+            // m_totalScore의 값을 저장
+            // public static int g_phoneNumber (전화번호) 값 저장
+            // public static int g_gender (성별) 값 저장 // 0은 남성, 1은 여성, 2는 기타
+            // public static int g_age (나이) 값
+
+    }
     }
 }
