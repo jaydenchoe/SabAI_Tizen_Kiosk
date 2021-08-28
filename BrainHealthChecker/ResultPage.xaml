@@ -15,13 +15,33 @@
         <View.Layout>
             <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="310,0"></LinearLayout>
         </View.Layout>
-        <TextLabel x:Name="TextScoreLabel1" Text=" 0" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        <TextLabel x:Name="TextScoreLabel1" Text=" 0" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Blue" PixelSize="25" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
         </TextLabel>
-        <TextLabel x:Name="TextScoreLabel2" Text="  5" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        <TextLabel x:Name="TextScoreLabel2" Text="  5" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Blue" PixelSize="25" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
         </TextLabel>
-        <TextLabel x:Name="TextScoreLabel3" Text=" 10" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        <TextLabel x:Name="TextScoreLabel3" Text=" 10" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Red" PixelSize="25" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
         </TextLabel>
-        <TextLabel x:Name="TextScoreLabel4" Text="14" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Black" PixelSize="25" MultiLine="True" >
+        <TextLabel x:Name="TextScoreLabel4" Text="14" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" TextColor="Red" PixelSize="25" MultiLine="True" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
         </TextLabel>
     </View>
     <View x:Name="DummyView4" WidthSpecification="1000" HeightSpecification="5" BackgroundColor="White"></View>
@@ -82,7 +102,7 @@
             <View.Layout>
                 <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Center" CellPadding="15,0"></LinearLayout>
             </View.Layout>
-        <Button x:Name="NextStepButton" Text="빈칸" BackgroundColor="Red"/>
+        <Button x:Name="NextStepButton" Text="빈칸" BackgroundColor="Red" Clicked="NextStepButton_Clicked" />
         <Button x:Name="GoToStartButton" Text="눌러서 처음으로" Clicked="GoToStartButton_Clicked" />
 
     </View>

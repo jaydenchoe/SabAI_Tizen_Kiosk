@@ -29,6 +29,7 @@ namespace BrainHealthChecker
             // total score가 6을 넘으면 치매 정밀 검사 필요 가능성 제시
             if (6 <= QuestionPage.g_totalScore) // 치매가능성
             {
+                ScoreLabel2.TextColor = Tizen.NUI.Color.Red;
                 ExplanationLabel1.Text = "가까운 보건소/병원이나 치매안심센터 방문하시고";
                 ExplanationLabel2.Text = "좀 더 정확한 치매검진을 받아 보시기 바랍니다";
                 NextStepButton.Text = "우리동네 보건소 찾아보기";
@@ -36,6 +37,7 @@ namespace BrainHealthChecker
         // total score가 6을 안넘으면 치매 예방 안내
             else
             {
+                ScoreLabel2.TextColor = Tizen.NUI.Color.Blue;
                 ExplanationLabel1.Text = "앞으로도 운동과 외부 사회 활동을 유지하시고";
                 ExplanationLabel2.Text = "치매예방수칙을 잘 실천하셔서 치매를 예방하세요";
                 NextStepButton.Text = "치매예방수칙 바로가기";
@@ -51,10 +53,14 @@ namespace BrainHealthChecker
             animation.AnimateTo(AnimateView, "PositionX", position);
 
             animation.ProgressNotification = 1.0f;
-           // animation.ProgressReached += (o, e) =>
-           // {
-           //     update();
-           // };
+            // animation.ProgressReached += (o, e) =>
+            // {
+            //     update();
+            // };
+            if (6 <= QuestionPage.g_totalScore) // 치매 가능성이 있으면 RED로 진행바 색깔 변경
+            {
+                AnimateView.BackgroundColor = Tizen.NUI.Color.Red;
+            }
             animation.Play();
         }
 
@@ -75,6 +81,17 @@ namespace BrainHealthChecker
             view = new Scene1Page();
             Scene1.g_pre_view = view;
             window.Add(view);
+        }
+
+        private void NextStepButton_Clicked(object sender, ClickedEventArgs e)
+        {
+            if (6 <= QuestionPage.g_totalScore) // 치매가능성
+            { 
+
+            } else
+            {
+
+            }
         }
     }
 }

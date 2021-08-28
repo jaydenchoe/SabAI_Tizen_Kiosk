@@ -48,11 +48,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>+DrotIcNdj0QuEINyBuN+FmKYkERQTFk4xNjQO2djbzxrmuJX6J1FoTR5lTV84Jto8muxP4HqfF0e/b7aqvaKQ==</DigestValue>
+      <DigestValue>SmjqBaYPqYEwrKAeW2iSKyFiciV2YSAFQDj3DnmcTMiM3jPnf0rEyOj9qjzaJQDLU4wGxZ/T6vOgXOpNnsibUQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>GyctzcCbf4zphD62r+CoRffv386Cn7oC9be1brE6X2VV9Ilu9rssAMd0/qYZpHzMk1MNCnfbnb0fM5vNFUsyFA==</DigestValue>
+      <DigestValue>jfsLpz1SmF9bGQS8x1ezV1gTBdHJnqwIyzfM513fcmU/shp5SZ+eMCDXmR6fBCLIjeEnTTOa3QUkpd3iLHFnnA==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -63,9 +63,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-cNPq62Ie69WuDu3ojfbXP9Q1emsOQaOlo2LIUKUSvZfKfE5V+kkGt2mKdKN+bGLa7fZC4/2nb0iB
-7QAdlVjKNnMh7JjkBFzhEsB4cY+usyUfrJWsbz3NpNG8+BoMUfAhLTSiHG1k4zMPhbGOldHpYk0b
-NRy7pCxLAODuSWrXSI4=
+ZglR5asSm7U/zwHnzokDmwsBjgiP80QPCJ58NwG4jrpRgbGxmQYcD5vcuRht8uNeYvFu7GE3WwgZ
+6D3y9+UyB4f7Z/jJYzeMbju+cF2M8Ml9XrYnbK89a1AHSIt9Y/g63/Fowm1HuhrmA0eBu+l9Vhto
+W5rWJX2T/EwLbRTNQzI=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
