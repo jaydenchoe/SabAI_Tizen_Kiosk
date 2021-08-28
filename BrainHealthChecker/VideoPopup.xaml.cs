@@ -32,9 +32,13 @@ namespace BrainHealthChecker
         }
         private void playStopButton_Clicked(object sender, ClickedEventArgs e)
         {
-            playerView.Stop();
             this.Unparent();
             this.Dispose();
+            playerView.Stop();
+            playerView.Unparent();
+            playerView.Dispose();
+            playerView = null;
+     
         }
     }
 

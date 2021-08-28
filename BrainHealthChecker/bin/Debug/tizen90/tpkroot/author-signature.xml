@@ -14,10 +14,6 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>pm8XkfnNF/93QsZEdNoAyZMMIfHOwgvpNNBRAeq7g2JHRn7Gn8ADKhj4pqOHF8itJVNdi9rGBe+b8bEiQKo1Xg==</DigestValue>
     </Reference>
-    <Reference URI="res%2Fvideo%2Fold_sample.3gp">
-      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>aBK4RmYFKhvIEl0S1hMGWXR1Zpfjoh/ndR1hz+xC5/U89ZyHTwe9Lq2QeA5neLeZZw9GA+eJUtC1Zhv/qPvKFw==</DigestValue>
-    </Reference>
     <Reference URI="res%2Ftheme%2Ftheme.xaml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>1O/3jqCpAB97fW+Xxmc04sJLak/Ozf37k9za5zQwb9G2gh8JavU0fC9IOrJ4y2c7rp0f2wC6RHFWxks1z1F+VA==</DigestValue>
@@ -56,11 +52,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>A2EA08YklC7+FrlFmEOAeST4HDLRpEaRWjTqGz2hWFaST0ta4ZySvdU9aivbfb7d6xPnOGAPwrOQrB8DlbYy2Q==</DigestValue>
+      <DigestValue>9Lvowfuq1hp+c1k4QFJsf27lpO0+hn7ChkMW/HKcXR87+2Ama2ytKiax1JSgfeczP4JgHT1vnwU85uINvpB8dw==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>L0CzwHxFPLRaKJty6Z1wY0F10eeAn3tHdcTu1T2F4j80C6A9B09OoX90f11gzIZTf/gLqJW1GwwLlYe7jSbSwA==</DigestValue>
+      <DigestValue>TfmT25Ew2aTJOrzFI1FMTvxfbkHszoznoTsHUcHFui7TH2nCgeNSsJz114aiekbwvEUWlPX3+EzJi9IQn0g7Dw==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -71,9 +67,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-Ahjomh141Qm5XIMa9g6emJsIYx7IZgWvzRakd4rxXfm/09VzNXpDHpdD8OMsCpjfCPJyfCvCq15v
-KoeQrhPXz/ihHVeK3eo6wLrHFLymQqWeRobwYYPNhO76chpPtuoQqQ3dhYt53Nb4O1WfspHmNctv
-gzjL6nXeDlEet4FPXRc=
+Pd1vGbw5BjTTWUtLibpp0O8bu0P9Gt3TBNcyj4dyHxZ0J04bs4hC1ugQaTG4vHqdxdzWUVN3fya/
+HtLAJUcWlBws7tS0HsaA/rcjKViZ9i1soIqTp27yEpQrrK8Rv3je/A5/0QTWNpcRPnMdb2vmJeQ7
+SWimB2jAAmNfPFRLww8=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
