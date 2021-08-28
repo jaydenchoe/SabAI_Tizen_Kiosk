@@ -17,6 +17,7 @@
     <None Remove="ResultPage.xaml" />
     <None Remove="Scene2Page.xaml" />
     <None Remove="Scene3Page.xaml" />
+    <None Remove="VideoPopup.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +26,10 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="QuestionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoPopup.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

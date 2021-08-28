@@ -8,6 +8,9 @@
     <EmbeddedResource Update="QuestionPage.xaml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Update="VideoPopup.xaml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Update="Scene3Page.xaml">
       <SubType>Designer</SubType>
     </EmbeddedResource>

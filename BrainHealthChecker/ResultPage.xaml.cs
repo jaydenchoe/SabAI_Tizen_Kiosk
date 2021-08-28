@@ -7,6 +7,7 @@ namespace BrainHealthChecker
 {
     public partial class ResultPage : View
     {
+
         public ResultPage()
         {
    
@@ -85,6 +86,8 @@ namespace BrainHealthChecker
 
         private void NextStepButton_Clicked(object sender, ClickedEventArgs e)
         {
+            Window.Instance.GetDefaultLayer().Add(new VideoPopup());
+
             if (6 <= QuestionPage.g_totalScore) // 치매가능성
             { 
 
@@ -93,5 +96,7 @@ namespace BrainHealthChecker
 
             }
         }
+     
+
     }
 }

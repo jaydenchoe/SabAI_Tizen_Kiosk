@@ -9,6 +9,8 @@ C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\stress.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\images\tizen.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\video\old_sample.3gp
+C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\res\video\sample.mp4
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\shared\res\BrainHealthChecker.png
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
 C:\Users\jayden\OneDrive\문서\GitHub\SabAI_Kiosk\BrainHealthChecker\bin\Debug\tizen90\org.tizen.example.BrainHealthChecker-1.0.0.tpk

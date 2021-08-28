@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="BrainHealthChecker.VideoPopup"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:BrainHealthChecker"
+        WidthSpecification="900"
+        HeightSpecification="600"
+        PivotPoint="Center"
+        ParentOrigin="Center"
+        PositionUsesPivotPoint="true">
+    <View.Layout>
+        <AbsoluteLayout></AbsoluteLayout>
+    </View.Layout>
+    <VideoView x:Name="playerView"
+           Underlay="False"
+           WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+           HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    </VideoView>
+    <Button x:Name="playStopButton" Clicked="playStopButton_Clicked" Text="중지하고 나가기" Position2D="300,500" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
+
+</View>
