@@ -29,6 +29,7 @@ Seoul Hackathon 2021 SabAI Team Kiosk Project
   * QuestionPage.xaml.cs
   * QuestionPage.xaml
   * Program.cs
+  * output_STDKTESTJx1NtvQ1 smartthings device key
 
 ## 코드 기여자
   * VideoPopup.xaml.cs 최재훈
@@ -45,6 +46,7 @@ Seoul Hackathon 2021 SabAI Team Kiosk Project
   * QuestionPage.xaml.cs 최재훈 박세문
   * QuestionPage.xaml 최재훈 박세문
   * Program.cs 최재훈
+  * output_STDKTESTJx1NtvQ1 박세문
 
 ## 보드
   * RPI4 : 타이젠앱 구동(자가진단키오스크/멀티미디어 등) / 모션센싱(모션센서) / 결과를 웹서버로 전달, https://github.com/jaydenchoe/SabAI_Kiosk
