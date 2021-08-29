@@ -1,6 +1,7 @@
 ﻿using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
 using Tizen.NUI.Components;
+using System.Net.Http;
 
 namespace BrainHealthChecker
 {
@@ -60,6 +61,7 @@ namespace BrainHealthChecker
                 view = new ResultPage();
                 Scene1.g_pre_view = view;
                 window.Add(view);
+                StoreScore();
             }
             else
             { // 그렇지 않으면 현재 질문 답을 저장하고 다음 질문 업데이트
@@ -82,15 +84,25 @@ namespace BrainHealthChecker
                 }
             }
         }
-        private void StoreScore()
+        private async void StoreScore()
         {
-            // 클라우드 저장용
+            // 클라우드 저장용인데 Smarthings가 잘안되어서 Web Server로 보낸다.
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                var payload = "{\"PhoneNumber\": " + g_phoneNumber + ", \"Age\": " + g_age + ", \"Score\": " + g_totalScore + "}";
+                string url = "http://192.168.86.192:3000";
+                HttpContent content = new StringContent(payload, System.Text.Encoding.UTF8, "application/json");
+                var result =  httpClient.PostAsync(url, content);
+            }
+            catch (HttpRequestException ex)
+            {
 
-            // m_answerList의 값 저장
-            // public static int g_totalScore의 값을 저장
+            }
+           
             // public static int g_phoneNumber (전화번호) 값 저장
-            // public static int g_gender (성별) 값 저장 // 0은 남성, 1은 여성, 2는 기타
             // public static int g_age (나이) 값
+            // public static int g_totalScore의 값을 저장
 
         }
     }
