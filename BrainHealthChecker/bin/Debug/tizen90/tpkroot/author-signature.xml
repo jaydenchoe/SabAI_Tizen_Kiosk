@@ -4,7 +4,7 @@
     <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" />
     <Reference URI="tizen-manifest.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>VyOYwDOdwBdDCKbNog5hRo2pqT7q2PMS9MFiIzbU1fDNxS6AoOmaW0W13/7ATXex8Ib+4lPDrpFs0TCMseGrSg==</DigestValue>
+      <DigestValue>zthOkeXrSRVB6x4xrxhk8PlfZynOGjoTp2wkUfZrYylKS5Px3niIz1T0BdkrbGKXTCdPlUjGm62d6TSwS6N5Tg==</DigestValue>
     </Reference>
     <Reference URI="shared%2Fres%2FBrainHealthChecker.png">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -52,11 +52,11 @@
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>2HpWcN2Tm6WXnbX/fJQiDdyPgge1wRP68BDgbvBPfiKLzeGCnIMdJZtnvhDjgQ6M0fsJhaVBV2OroiIVEoj8+w==</DigestValue>
+      <DigestValue>nTR7XHJKikT2psLgMBTjCTVaVWhD28FY7d487SHOXT/97wteP0sSf5dEOY8VZfqHj7u9trCP6/kzc22bugsuuQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FBrainHealthChecker.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>NOVbmJxsV5/BPobtEQFODNS1Xt29pxMnicYAW+FS0IT8U2IK+9FQo6uCDaaDXLwmwD1amHUZjFLdW5i1bq5/JA==</DigestValue>
+      <DigestValue>/atyP5NZBtTsQCcqjhvU2jntiXt0jXDkkIwVt9/49rntDsItWHdhuAD3B7v8pBjOuYnmX5GE2oIKIN4FRivcog==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -67,9 +67,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-JNusdjXHVHxq32sMf5hTUwBAFPtgqIrVfpv6hjJ6C+bnsVu9BwDWKva6rWr+8y4DW4PvHV7XfGJE
-Zf5I7G98XNAtIGhnBL75u9VcWikmQ5/3+69mb/Sjxa9LQ955iKeJw0LtcIv+bE3gjqQL9I42auoX
-CelxHl+fE56kbFzdNvQ=
+WPKjNuvyD6e5YEnxzD7A8rlwt3WIEVHUFTKXt3qdul49MAvdvNUXlY5kAl4aLp4cGoKtcpZccV+y
+rfmc2wc5nKPC508vAm/gLTCGA5wXtraV7s3tO2C25nWeCsz8st1ula3zJf6ipY+G/QD4Tk9iAFH9
+2SABkP0IolCaPtIOYVk=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
