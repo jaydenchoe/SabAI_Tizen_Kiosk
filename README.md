@@ -52,3 +52,6 @@ Seoul Hackathon 2021 SabAI Team Kiosk Project
 
 ## 구현사항(가산점)
 * Peripheral GPIO로 모션 센싱 구현함. 노인분들의 편의를 위해 처음 페이지에서 모션센싱을 통해서도 두번째 페이지로 갈 수 있도록 구현함
+
+## 프로젝트 관련 스터디 내용 이력과 프로젝트 기획/설계한 이력 (구글 공유 문서)
+* https://docs.google.com/document/d/1LDKpRqoPyIhb1ev4btUGKfQts9jO1jCl954wjDeyvW8/edit?usp=sharing
