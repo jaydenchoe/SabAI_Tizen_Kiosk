@@ -57,3 +57,6 @@ Seoul Hackathon 2021 SabAI Team Kiosk Project
 
 ## 프로젝트 관련 스터디 내용 이력과 프로젝트 기획/설계한 이력 (구글 공유 문서)
 * https://docs.google.com/document/d/1LDKpRqoPyIhb1ev4btUGKfQts9jO1jCl954wjDeyvW8/edit?usp=sharing
+
+## 프로젝트 시연 동영상 (구글 드라이브 링크)
+* https://drive.google.com/file/d/1F2za8hAnHxtKFTInZO1Y1HR2TalVoDaM/view?usp=sharing
