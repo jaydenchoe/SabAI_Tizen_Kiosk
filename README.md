@@ -50,7 +50,7 @@ Seoul Hackathon 2021 SabAI Team Kiosk Project
 
 ## 보드
   * RPI4 : 타이젠앱 구동(자가진단키오스크/멀티미디어 등) / 모션센싱(모션센서) / 결과를 웹서버로 전달, https://github.com/jaydenchoe/SabAI_Kiosk
-  * Windows PC : (Smarthings가 동작을 안해서 이 대신) 간단한 웹 서버(node.js)를 구동하여 자가진단 결과 데이터 수신
+  * Windows PC : (Smarthings가 동작을 안해서 대신) 간단한 웹 서버(node.js)를 구동하여 자가진단 결과 데이터 수신
 
 ## 구현사항(가산점)
 * Peripheral GPIO로 모션 센싱 구현함. 노인분들의 편의를 위해 처음 페이지에서 모션센싱을 통해서도 두번째 페이지로 갈 수 있도록 구현함
